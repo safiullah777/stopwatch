@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title></title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+        <h1 id="heading">StopWatch</h1>
+        <div id="main">
+            <div id="time">
+                <h1 id="min">00</h1>
+                <h1 id="sec">00</h1>
+                <h1 id="msec">00</h1></div>
+                <div id="buttons">
+            <input type="button" onclick="Start()" id="start" value="Start">
+            <input type="button" onclick="Stop()" id="stop" value="Stop">
+            <input type="button" onclick="Reset()" id="reset" value="Reset"></div>
+            <input style="margin: 5px 53px; width: 70%; background-color: red;" id="record" onclick="record()" type="button" value="Record">
+
+        </div>
+        <div id="recordBox">
+            <h3 style="justify-content: center; display: flex;">Record</h3>
+
+        </div>
+        
+        <script src="app.js"></script>
+    </body>
+</html>
